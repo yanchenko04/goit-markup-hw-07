@@ -1,0 +1,32 @@
+.work{
+    padding-top: 0;
+}
+
+.section-title{
+font-size: 36px;
+line-height: 1.16;
+color:var(--dark-text-color);
+margin-bottom: 50px;
+text-align: center;
+}
+
+.work-list{
+display: flex;
+}
+.work-item{
+    flex-basis: calc(100% / 3 - 30px);
+}
+.work-content{
+    position: relative;
+}
+.work-text{
+    position: absolute;
+    width: 100%;
+    background-color:  rgba(47, 48, 58, 0.8);
+    bottom: 0;
+    padding: 27px ;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--light-text-color);
+}

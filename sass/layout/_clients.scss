@@ -1,0 +1,21 @@
+.clients-item{
+    flex-basis: calc(100% / 6 - 30px);
+}
+
+.clients-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-background-color);
+    height: 92px;
+    border: 1px solid currentColor;
+    border-radius: 4px;
+    color:var(--icon-color);
+    transition: color var(--transition);
+    &:hover, &:focus{
+        color: var(--accent-color);
+    }
+}
+.clients-icon{
+    fill:currentColor
+}

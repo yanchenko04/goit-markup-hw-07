@@ -1,0 +1,24 @@
+.about-title{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--dark-text-color);
+    margin-bottom: 10px;
+    }
+    
+    .about-list{
+        display: flex;
+    }
+    
+    .about-item{
+        flex-basis: calc(100% / 4 - 30px);
+    }
+    .about-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--gray-background-color);
+        height: 120px;
+        margin-bottom: 30px;
+    }
