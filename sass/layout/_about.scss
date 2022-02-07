@@ -1,4 +1,4 @@
-.about-title{
+.about__title{
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
@@ -11,10 +11,10 @@
         display: flex;
     }
     
-    .about-item{
+    .about-list__item {
         flex-basis: calc(100% / 4 - 30px);
     }
-    .about-img{
+    .about-list__img{
         display: flex;
         justify-content: center;
         align-items: center;

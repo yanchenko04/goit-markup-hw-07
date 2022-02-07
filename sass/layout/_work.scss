@@ -13,13 +13,13 @@ text-align: center;
 .work-list{
 display: flex;
 }
-.work-item{
+.work-list__item{
     flex-basis: calc(100% / 3 - 30px);
 }
-.work-content{
+.work-list__content{
     position: relative;
 }
-.work-text{
+.work-list__text{
     position: absolute;
     width: 100%;
     background-color:  rgba(47, 48, 58, 0.8);

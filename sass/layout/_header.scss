@@ -7,7 +7,7 @@
 }
 
 
-.header-container{
+.header__container{
     display: flex;
     align-items: center;
 }
@@ -21,28 +21,28 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--logo-color);
 }
-.header-logo-span{
+.header__logo{
 color:var(--dark-text-color)
 }
-.header-list{
+.site-list{
     color:var(--dark-text-color);
     display: flex;
     
 }
-.header-contact-list{
+.contact-list{
 display: flex;
 margin-left: auto;
 align-items: center;
 }
-.header-item:not(:last-child){
+.site-list__item:not(:last-child){
     margin-right: 50px;
 }
 
-.header-contact-item:not(:first-child){
+.contact-list__item:not(:first-child){
     margin-left: 50px;
 }
 
-.header-link{
+.site-list__link{
 font-weight: 500;
 line-height: 1.14;
 letter-spacing: 0.02em;
@@ -76,7 +76,7 @@ transition: color var(--transition);
 }
 
 
-.header-contact-icon{
+.contact-list__icon{
     display: block;
     margin-right: 10px;
     fill: currentColor;
