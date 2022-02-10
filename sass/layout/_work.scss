@@ -2,20 +2,8 @@
     padding-top: 0;
 }
 
-.section-title{
-font-size: 36px;
-line-height: 1.16;
-color:var(--dark-text-color);
-margin-bottom: 50px;
-text-align: center;
-}
 
-.work-list{
-display: flex;
-}
-.work-list__item{
-    flex-basis: calc(100% / 3 - 30px);
-}
+
 .work-list__content{
     position: relative;
 }

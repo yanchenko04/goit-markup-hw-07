@@ -8,12 +8,12 @@
     }
     
     .about-list{
-        display: flex;
+        --card-item: 4;
+        
     }
     
-    .about-list__item {
-        flex-basis: calc(100% / 4 - 30px);
-    }
+  
+    
     .about-list__img{
         display: flex;
         justify-content: center;
