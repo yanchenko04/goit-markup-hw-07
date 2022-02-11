@@ -665,7 +665,7 @@ body {
 }
 
 .footer-cont__item:last-child {
-  margin-right: auto;
+  margin-left: auto;
 }
 
 .footer .logo {
